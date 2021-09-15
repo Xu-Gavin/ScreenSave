@@ -1,6 +1,6 @@
 {
 	"name": "ScreenSave",
-	"Description": "Save a Snapshot",
+	"description": "Save a Snapshot",
 	"version": "1.0",
 	"manifest_version": 3
 }
