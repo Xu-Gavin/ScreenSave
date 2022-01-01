@@ -1,0 +1,54 @@
+/* Body */
+body {
+  margin: 0;
+  width: 250px;
+  max-width: 250px;
+}
+
+/* Font settings */
+div, h1, p {
+  font-family: "Roboto", sans-serif;
+}
+
+h1.defPath {
+  font-size: 15px;
+  margin: 5px;
+  margin-left: 5px;
+}
+
+/* Path */
+input.path {
+ width: 200px;
+ margin: 5px auto;
+}
+
+/* mainContainer */
+div.mainContainer {
+  display: flex;
+  flex-direction: column;
+}
+
+/* default img properties */
+img {
+  max-height: 100px;
+  max-width: 100px;
+}
+
+/* mainButton */
+.mainButton {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+  justify-content: center;
+  width: 130px;
+  max-width: 130px;
+  margin: 6px;
+}
+
+/* Rows */
+/* NOTE: replace with css Grid in the future */
+div.row {
+  display: flex;
+  justify-content: center;
+}

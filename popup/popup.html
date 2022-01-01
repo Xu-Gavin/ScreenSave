@@ -4,10 +4,35 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>HTML 5 Boilerplate</title>
+    <title>ScreenSave Popup</title>
     <link rel="stylesheet" href="style.css">
   </head>
   <body>
-    <script src="index.js"></script>
+    <div class="mainContainer">
+      <h1 class="defPath">Default Save:</h1>
+      <input class="path" type="text"></input>
+      <!-- Todo: use CSS grid -->
+      <div id="row1" class="row">
+        <button id="ssButton" class="mainButton">
+          <img src="../assets/images/shutter.png">
+          Take Screenshot
+        </button>
+        <button id="prevButton" class="mainButton">
+          <img src="../assets/images/back.png">
+          Open Previous Image
+        </button>
+      </div>
+      <div id="row2" class="row">
+        <button id="shareButton" class="mainButton">
+          <img src="../assets/images/share.png">
+          Share
+        </button>
+        <button id="fileButton" class="mainButton">
+          <img src="../assets/images/file.png">
+          Open File System Editor
+        </button>
+      </div>
+      <script src="index.js"></script>
+    </div>
   </body>
 </html>
